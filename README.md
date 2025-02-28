@@ -7827,7 +7827,7 @@ style.textContent = `
   flex-direction: column;
   gap: 6px;
   width: 100%;
-  max-width: 640px; /* Drastically reduced width */
+  max-width: 540px; /* Drastically reduced width */
   margin: 0 auto;
   padding: 8px; /* Minimal padding */
 }
@@ -8054,7 +8054,7 @@ style.textContent = `
 /* Media Queries for Tablet Devices */
 @media (min-width: 481px) {
   .automotive-response {
-    max-width: 90%;
+    width: 80vw;
   }
   
   .vehicle-item {
@@ -8076,7 +8076,7 @@ style.textContent = `
 /* Media Queries for Mobile Devices */
 @media (max-width: 480px) {
   .vehicle-item {
-    width: 82vw;
+    width: 80vw;
     padding: 12px;
     border-radius: 12px;
     margin-bottom: 12px;
@@ -8099,7 +8099,7 @@ style.textContent = `
 
   .book-now-button,
   .whatsapp-button {
-    padding: 8px 12px; /* Adjust padding for smaller screens */
+    padding: 8px 8px; /* Adjust padding for smaller screens */
     font-size: 14px; /* Reduce font size for smaller screens */
   }
 }  
